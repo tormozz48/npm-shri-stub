@@ -3,6 +3,12 @@
   "version": "0.0.1",
   "description": "NPM module stub for SHRI lesson presentation",
   "main": "index.js",
+  "bin": {
+    "shri": "./bin/shri"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
   "scripts": {
     "test": "mocha"
   },
