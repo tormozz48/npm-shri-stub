@@ -4,7 +4,6 @@ const assert = require('chai').assert;
 const shri = require('..');
 
 describe('npm-shri-stub', () => {
-
     it('should calculate sum of given numbers', () => {
         assert.equal(shri.add(1, 2), 3);
     });
