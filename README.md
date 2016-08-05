@@ -7,6 +7,18 @@ Repository which can be used as stub for [npm](http://npmjs.com) module. (Presen
 [![Travis](https://img.shields.io/travis/tormozz48/npm-shri-stub.svg)](https://travis-ci.org/tormozz48/npm-shri-stub)
 [![David](https://img.shields.io/david/tormozz48/npm-shri-stub.svg)](https://david-dm.org/tormozz48/npm-shri-stub)
 
+<!-- TOC -->
+- [Usage](#usage)
+  - [API](#api)
+    - [`add`](#add)
+    - [`subtract`](#subtract)
+    - [`multiply`](#multiply)
+    - [`divide`](#divide)
+  - [CLI](#cli)
+- [Testing](#testing)
+
+<!-- TOC END -->
+
 ## Usage
 
 Install `npm-shri-stub` package as usual:
@@ -29,29 +41,33 @@ const divide = shri.divide(2, 1);
 
 ### API
 
-#### `add` - calculates sum of two numbers
+#### `add`
 
+description: calculates sum of two numbers
 example:
 ```js
 const add = shri.add(1, 2); //add = 3
 ```
 
-#### `subtract` - calculates diff between two numbers
+#### `subtract`
 
+description: calculates diff between two numbers
 example:
 ```js
 const subtract = shri.subtract(2, 1); //subtract = 1
 ```
 
-#### `multiply` - multiply two numbers
+#### `multiply`
 
+description: multiply two numbers
 example:
 ```js
 const multiply = shri.multiply(2, 3); //multiply = 6
 ```
 
-#### `divide` - divide given numbers
+#### `divide`
 
+description: divide given numbers
 example:
 ```js
 const divide = shri.divide(2, 1); //divide = 1 
